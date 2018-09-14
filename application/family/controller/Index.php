@@ -42,7 +42,7 @@ class Index extends Controller
             'age'=>'26',
             'sex'=>'女',
         );
-        return json(['code'=>200,'msg'=>'登陆成功','data'=>$data]);
+        return json(['code'=>200,'msg'=>'登陆成功！','data'=>$data]);
 //        $this->assign('users',$user);
 //        return view();
     }
