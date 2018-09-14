@@ -1,0 +1,1529 @@
+---------------------------------------------------------------
+[ 2018-09-07T12:37:25+08:00 ] 192.168.2.198 GET /activity/mobile1.html
+[ info ] 192.168.2.198/activity/mobile1.html [运行时间：0.055627s][吞吐率：17.98req/s] [内存消耗：1,363.64kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'activity',
+    2 => 'mobile1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536198138,1536281824; nb-referrer-hostname=192.168.2.198; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290811; nb-start-page-url=http%3A%2F%2F192.168.2.198%2Factivity%2Fweb1.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:43+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.081265s][吞吐率：12.31req/s] [内存消耗：1,751.99kb] [文件加载：47]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/css/common.css
+[ info ] 127.0.0.1/index/home/css/common.css [运行时间：0.028845s][吞吐率：34.67req/s] [内存消耗：1,359.72kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'common.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/js/jquery-2.1.0.js
+[ info ] 127.0.0.1/index/home/js/jquery-2.1.0.js [运行时间：0.063444s][吞吐率：15.76req/s] [内存消耗：1,359.67kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery-2.1.0.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/css/mui.min.css
+[ info ] 127.0.0.1/index/home/css/mui.min.css [运行时间：0.079528s][吞吐率：12.57req/s] [内存消耗：1,359.72kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'mui.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/css/mui.min.css
+[ info ] 127.0.0.1/index/home/css/mui.min.css [运行时间：0.026316s][吞吐率：38.00req/s] [内存消耗：1,359.72kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'mui.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/js/mui.min.js
+[ info ] 127.0.0.1/index/home/js/mui.min.js [运行时间：0.119323s][吞吐率：8.38req/s] [内存消耗：1,359.62kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'mui.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/css/common.css
+[ info ] 127.0.0.1/index/home/css/common.css [运行时间：0.062656s][吞吐率：15.96req/s] [内存消耗：1,359.68kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'common.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:37:44+08:00 ] 127.0.0.1 GET /index/home/js/jquery-2.1.0.js
+[ info ] 127.0.0.1/index/home/js/jquery-2.1.0.js [运行时间：0.084284s][吞吐率：11.86req/s] [内存消耗：1,359.67kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery-2.1.0.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:45:05+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbqzrCwc%2FKegm1l7C9aebdpo01rv%2Fs1DvtGaUsFH6Qafpgp5dmiRzS9wsmoQsLBmNZ6CF6rppzVLAhLoP2ijVVbZLTvd%2F9zw4XLz5mjZGp6yMiCK7nDDxq2zRp%2BYYvgQYkzI51GYcR3hnmjyOZhHynvDnf3OevDbKihdLoGf7Gh8DBp%2B04VrSqCcAExGEmQSaZp9tXRrYxvlakSqEvywoLn0Q5gQnr2T7%2FwUzho6%2FT8%2BVJ%2FCMadd6jCm6zSaT5Sz3pFvVOnbifOgWDsOZqqXgpMQvbTIiGbVJtcx0%2F%2B0bkwoR50VjWg3%2B%2Fsi81t8zFXabeN9KepdzEpqDf2TnujGlg6JRS%2FzkTMfVg8t04XL7%2BrF5dwg%2FG4UZPpvwysBqRf2ywgNXsG%2FxgZwy2NenkJhXFxNSEBcylgc%2Ff%2Ft%2BpHX7%2FRFF7v3WhhRXzU%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbqzrCwc%2FKegm1l7C9aebdpo01rv%2Fs1DvtGaUsFH6Qafpgp5dmiRzS9wsmoQsLBmNZ6CF6rppzVLAhLoP2ijVVbZLTvd%2F9zw4XLz5mjZGp6yMiCK7nDDxq2zRp%2BYYvgQYkzI51GYcR3hnmjyOZhHynvDnf3OevDbKihdLoGf7Gh8DBp%2B04VrSqCcAExGEmQSaZp9tXRrYxvlakSqEvywoLn0Q5gQnr2T7%2FwUzho6%2FT8%2BVJ%2FCMadd6jCm6zSaT5Sz3pFvVOnbifOgWDsOZqqXgpMQvbTIiGbVJtcx0%2F%2B0bkwoR50VjWg3%2B%2Fsi81t8zFXabeN9KepdzEpqDf2TnujGlg6JRS%2FzkTMfVg8t04XL7%2BrF5dwg%2FG4UZPpvwysBqRf2ywgNXsG%2FxgZwy2NenkJhXFxNSEBcylgc%2Ff%2Ft%2BpHX7%2FRFF7v3WhhRXzU%3D&v=1 [运行时间：0.029879s][吞吐率：33.47req/s] [内存消耗：1,363.76kb] [文件加载：38]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'messenger-front',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbqzrCwc/Kegm1l7C9aebdpo01rv/s1DvtGaUsFH6Qafpgp5dmiRzS9wsmoQsLBmNZ6CF6rppzVLAhLoP2ijVVbZLTvd/9zw4XLz5mjZGp6yMiCK7nDDxq2zRp+YYvgQYkzI51GYcR3hnmjyOZhHynvDnf3OevDbKihdLoGf7Gh8DBp+04VrSqCcAExGEmQSaZp9tXRrYxvlakSqEvywoLn0Q5gQnr2T7/wUzho6/T8+VJ/CMadd6jCm6zSaT5Sz3pFvVOnbifOgWDsOZqqXgpMQvbTIiGbVJtcx0/+0bkwoR50VjWg3+/si81t8zFXabeN9KepdzEpqDf2TnujGlg6JRS/zkTMfVg8t04XL7+rF5dwg/G4UZPpvwysBqRf2ywgNXsG/xgZwy2NenkJhXFxNSEBcylgc/f/t+pHX7/RFF7v3WhhRXzU=',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:53:52+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.058052s][吞吐率：17.23req/s] [内存消耗：1,318.22kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:52+08:00 ] 127.0.0.1 GET /index/home/js/mui.min.js
+[ info ] 127.0.0.1/index/home/js/mui.min.js [运行时间：0.044953s][吞吐率：22.25req/s] [内存消耗：1,067.88kb] [文件加载：32]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'mui.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:53:52+08:00 ] 127.0.0.1 GET /index/home/css/mui.min.css
+[ info ] 127.0.0.1/index/home/css/mui.min.css [运行时间：0.032319s][吞吐率：30.94req/s] [内存消耗：1,067.82kb] [文件加载：32]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'mui.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:53:52+08:00 ] 127.0.0.1 GET /index/home/css/common.css
+[ info ] 127.0.0.1/index/home/css/common.css [运行时间：0.056242s][吞吐率：17.78req/s] [内存消耗：1,067.83kb] [文件加载：32]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'common.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:53:52+08:00 ] 127.0.0.1 GET /index/home/js/jquery-2.1.0.js
+[ info ] 127.0.0.1/index/home/js/jquery-2.1.0.js [运行时间：0.051028s][吞吐率：19.60req/s] [内存消耗：1,067.79kb] [文件加载：32]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery-2.1.0.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/index
+[ info ] 127.0.0.1/index/index/index [运行时间：0.031009s][吞吐率：32.25req/s] [内存消耗：1,318.19kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/home/css/common.css
+[ info ] 127.0.0.1/index/index/home/css/common.css [运行时间：0.028794s][吞吐率：34.73req/s] [内存消耗：1,318.52kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'css',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/home/css/mui.min.css
+[ info ] 127.0.0.1/index/index/home/css/mui.min.css [运行时间：0.028959s][吞吐率：34.53req/s] [内存消耗：1,318.55kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'css',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/home/js/mui.min.js
+[ info ] 127.0.0.1/index/index/home/js/mui.min.js [运行时间：0.070742s][吞吐率：14.14req/s] [内存消耗：1,318.41kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'js',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/home/js/jquery-2.1.0.js
+[ info ] 127.0.0.1/index/index/home/js/jquery-2.1.0.js [运行时间：0.071582s][吞吐率：13.97req/s] [内存消耗：1,318.43kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'js',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/home/css/mui.min.css
+[ info ] 127.0.0.1/index/index/home/css/mui.min.css [运行时间：0.026288s][吞吐率：38.04req/s] [内存消耗：1,318.55kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'css',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:53:59+08:00 ] 127.0.0.1 GET /index/index/home/css/common.css
+[ info ] 127.0.0.1/index/index/home/css/common.css [运行时间：0.060166s][吞吐率：16.62req/s] [内存消耗：1,318.52kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'css',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:55:44+08:00 ] 127.0.0.1 GET /index/index/index
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'
+---------------------------------------------------------------
+[ 2018-09-07T12:55:44+08:00 ] 127.0.0.1 GET /index/index/home/css/mui.min.css
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'
+---------------------------------------------------------------
+[ 2018-09-07T12:55:44+08:00 ] 127.0.0.1 GET /index/index/home/css/common.css
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'
+---------------------------------------------------------------
+[ 2018-09-07T12:55:44+08:00 ] 127.0.0.1 GET /index/index/home/js/jquery-2.1.0.js
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'
+---------------------------------------------------------------
+[ 2018-09-07T12:55:44+08:00 ] 127.0.0.1 GET /index/index/home/js/mui.min.js
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'
+---------------------------------------------------------------
+[ 2018-09-07T12:57:44+08:00 ] 127.0.0.1 GET /index/index/index
+[ info ] 127.0.0.1/index/index/index [运行时间：0.046785s][吞吐率：21.37req/s] [内存消耗：1,318.77kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:57:44+08:00 ] 127.0.0.1 GET /index/index/home/js/mui.min.js
+[ info ] 127.0.0.1/index/index/home/js/mui.min.js [运行时间：0.048113s][吞吐率：20.78req/s] [内存消耗：1,318.71kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'js',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:57:44+08:00 ] 127.0.0.1 GET /index/index/home/css/mui.min.css
+[ info ] 127.0.0.1/index/index/home/css/mui.min.css [运行时间：0.051471s][吞吐率：19.43req/s] [内存消耗：1,318.78kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'css',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:57:44+08:00 ] 127.0.0.1 GET /index/index/home/css/common.css
+[ info ] 127.0.0.1/index/index/home/css/common.css [运行时间：0.065910s][吞吐率：15.17req/s] [内存消耗：1,318.70kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'css',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:57:44+08:00 ] 127.0.0.1 GET /index/index/home/js/jquery-2.1.0.js
+[ info ] 127.0.0.1/index/index/home/js/jquery-2.1.0.js [运行时间：0.073870s][吞吐率：13.54req/s] [内存消耗：1,318.70kb] [文件加载：39]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'home' => 'js',
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ E:\xampp\htdocs\tp5\application\home\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/css/bootstrap.min.css
+[ info ] 127.0.0.1/static/chat/css/bootstrap.min.css [运行时间：0.025835s][吞吐率：38.71req/s] [内存消耗：1,071.40kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/js/swfobject.js
+[ info ] 127.0.0.1/static/chat/js/swfobject.js [运行时间：0.022049s][吞吐率：45.35req/s] [内存消耗：1,071.38kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'swfobject.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/js/web_socket.js
+[ info ] 127.0.0.1/static/chat/js/web_socket.js [运行时间：0.021219s][吞吐率：47.13req/s] [内存消耗：1,071.25kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'web_socket.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/js/web_socket.js
+[ info ] 127.0.0.1/static/chat/js/web_socket.js [运行时间：0.046517s][吞吐率：21.50req/s] [内存消耗：1,071.25kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'web_socket.js',
+)
+[ info ] [ LOG ] INIT File
+app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/css/style.css
+[ info ] 127.0.0.1/static/chat/css/style.css [运行时间：0.027252s][吞吐率：36.69req/s] [内存消耗：1,071.33kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:38+08:00 ] 127.0.0.1 GET /static/chat/js/jquery.min.js
+[ info ] 127.0.0.1/static/chat/js/jquery.min.js [运行时间：0.048141s][吞吐率：20.77req/s] [内存消耗：1,071.28kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/css/style.css
+[ info ] 127.0.0.1/static/chat/css/style.css [运行时间：0.030254s][吞吐率：33.05req/s] [内存消耗：1,071.42kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'style.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:37+08:00 ] 127.0.0.1 GET /static/chat/css/bootstrap.min.css
+[ info ] 127.0.0.1/static/chat/css/bootstrap.min.css [运行时间：0.072250s][吞吐率：13.84req/s] [内存消耗：1,071.38kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:38+08:00 ] 127.0.0.1 GET /static/chat/js/web_socket.js
+[ info ] 127.0.0.1/static/chat/js/web_socket.js [运行时间：0.051187s][吞吐率：19.54req/s] [内存消耗：1,071.25kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'web_socket.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:58:38+08:00 ] 127.0.0.1 GET /static/chat/js/jquery.min.js
+[ info ] 127.0.0.1/static/chat/js/jquery.min.js [运行时间：0.025336s][吞吐率：39.47req/s] [内存消耗：1,071.25kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'chat',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:59:24+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.039898s][吞吐率：25.06req/s] [内存消耗：1,322.74kb] [文件加载：37]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450,1536296318; Hm_lpvt_7b1919221e89d2aa5711e4deb935debd=1536296318',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T12:59:28+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.032500s][吞吐率：30.77req/s] [内存消耗：1,322.74kb] [文件加载：37]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450,1536296318; Hm_lpvt_7b1919221e89d2aa5711e4deb935debd=1536296365',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant THINKPHP_PATH - assumed 'THINKPHP_PATH'[E:\xampp\htdocs\tp5\public\index.php:19]
+---------------------------------------------------------------
+[ 2018-09-07T13:00:46+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 127.0.0.1/index/index [运行时间：0.035335s][吞吐率：28.30req/s] [内存消耗：1,277.90kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536129895,1536196610,1536281274; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fmobile1.html; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290378; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536132450,1536296318; Hm_lpvt_7b1919221e89d2aa5711e4deb935debd=1536296369',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:01:05+08:00 ] 192.168.2.198 GET /index/index
+[ info ] 192.168.2.198/index/index [运行时间：0.028490s][吞吐率：35.10req/s] [内存消耗：1,277.09kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536198138,1536281824; nb-referrer-hostname=192.168.2.198; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290811; nb-start-page-url=http%3A%2F%2F192.168.2.198%2Factivity%2Fweb1.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:01:14+08:00 ] 192.168.2.198 GET /index/index
+[ info ] 192.168.2.198/index/index [运行时间：0.030786s][吞吐率：32.48req/s] [内存消耗：1,277.82kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536198138,1536281824; nb-referrer-hostname=192.168.2.198; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290811; nb-start-page-url=http%3A%2F%2F192.168.2.198%2Factivity%2Fweb1.html; Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536296466; Hm_lpvt_7b1919221e89d2aa5711e4deb935debd=1536296466',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:01:27+08:00 ] 192.168.2.198 GET /index/index
+[ info ] 192.168.2.198/index/index [运行时间：0.033549s][吞吐率：29.81req/s] [内存消耗：1,276.03kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:02:07+08:00 ] 192.168.2.7 GET /index/index/inde
+[ info ] 192.168.2.198/index/index/inde [运行时间：0.050546s][吞吐率：19.78req/s] [内存消耗：1,276.25kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:03:53+08:00 ] 192.168.2.134 GET /index/index
+[ info ] 192.168.2.198/index/index [运行时间：0.044621s][吞吐率：22.41req/s] [内存消耗：1,277.45kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; R7Plusm Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/4.6.5.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=a79obd6s0iut2cdb8dh9t513e3; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536282385; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536282403; nb-referrer-hostname=192.168.2.198; nb-start-page-url=http%3A%2F%2F192.168.2.198%2Factivity%2Fmobile1.html%23',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:16:02+08:00 ] 192.168.2.198 GET /index/index
+[ info ] 192.168.2.198/index/index [运行时间：0.047515s][吞吐率：21.05req/s] [内存消耗：1,276.45kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:16:31+08:00 ] 192.168.2.198 GET /index/index
+[ info ] 192.168.2.198/index/index [运行时间：0.055345s][吞吐率：18.07req/s] [内存消耗：1,277.06kb] [文件加载：33]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_7b1919221e89d2aa5711e4deb935debd=1536297363; Hm_lpvt_7b1919221e89d2aa5711e4deb935debd=1536297363',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\xampp\htdocs\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:32:19+08:00 ] 192.168.2.141 GET /activity/mobile1.html
+[ info ] 192.168.2.198/activity/mobile1.html [运行时间：0.036864s][吞吐率：27.13req/s] [内存消耗：1,072.18kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'activity',
+    2 => 'mobile1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.2.198',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 7.1.2; zh-cn; Redmi 5 Plus Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.0.3',
+  'x-miorigin' => 'app',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'qv_als=aE8wXiKNYJ0cl+2VA11536282428OQLnDQ==; Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536282270; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536283655; nb-referrer-hostname=192.168.2.198; nb-start-page-url=http%3A%2F%2F192.168.2.198%2Factivity%2Fmobile1%23',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T14:09:59+08:00 ] 127.0.0.1 GET /Hmng/User/logsVipUser/type/2/uid/17
+[ info ] 127.0.0.6/Hmng/User/logsVipUser/type/2/uid/17 [运行时间：0.046950s][吞吐率：21.30req/s] [内存消耗：1,072.52kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Hmng',
+    2 => 'User',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.6/Hmng/User/logsVipUser/type/1/uid/17',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'bdshare_firstime=1523418011476; Wap_present_city=think%3A%7B%22city_name%22%3A%22%25E5%258C%2597%25E4%25BA%25AC%25E5%25B8%2582%22%2C%22city_id%22%3A%221-1%22%7D; Hm_lvt_67bb322fb82c427b4efb2a21e9330ffc=1534208205,1534294065,1534488347,1535423988; PHPSESSID=81sslqlek2j5rammj0dfh1tv44',
+)
+[ info ] [ PARAM ] array (
+  'logsVipUser' => 'type',
+  0 => 'uid',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T14:35:10+08:00 ] 127.0.0.1 GET /activity/web1.html
+[ info ] 127.0.0.1/activity/web1.html [运行时间：0.032601s][吞吐率：30.67req/s] [内存消耗：1,071.09kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'activity',
+    2 => 'web1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'referer' => 'http://127.0.0.1/activity/web1.html',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.1',
+  'connection' => 'Keep-Alive',
+  'cookie' => 'Hm_lvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290103; Hm_lpvt_e0b68fb7c85b2c1ec91bcd334fcf7589=1536290146; nb-referrer-hostname=127.0.0.1; nb-start-page-url=http%3A%2F%2F127.0.0.1%2Factivity%2Fweb1.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T14:45:06+08:00 ] 127.0.0.1 GET /messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbqzrCwc%2FKegm1l7C9aebdpo01rv%2Fs1DvtGaUsFH6Qafpgp5dmiRzS9wsmoQsLBmNZ6CF6rppzVLAhLoP2ijVVbZLTvd%2F9zw4XLz5mjZGp6yMiCK7nDDxq2zRp%2BYYvgQYkzI51GYcR3hnmjyOZhHynvDnf3OevDbKihdLoGf7Gh8DBp%2B04VrSqCcAExGEmQSaZp9tXRrYxvlakSqEvywoLn0Q5gQnr2T7%2FwUzho6%2FT8%2BVJ%2FCMadd6jCm6zSaT5Sz3pFvVOnbifOgWDsOZqqXgpMQvbTIiGbVJtcx0%2F%2B0bkwoR50VjWg3%2B%2Fsi81t8zFXabeN9KepdzEpqDf2TnujGlg6JRS%2FzkTMfVg8t04XL7%2BrF5dwg%2FG4UZPpvwysBqRf2ywgNXsG%2FxgZwy2NenkJhXFxNSEBcylgc%2Ff%2Ft%2BpHX7%2FRFF7v3WhhRXzU%3D&v=1
+[ info ] msg-push.duba.net/messenger-front/get?c=nN640gDS6JvhLGVcrlwz0bCRKXVHrYH%2FaQAyyzd3n2FX52EH%2F0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg%2FVWnIXEl2VdjHcQ2qoAyexE%2BhJBzOJE%2FdcOuHl7fVjFBLG%2B11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbqzrCwc%2FKegm1l7C9aebdpo01rv%2Fs1DvtGaUsFH6Qafpgp5dmiRzS9wsmoQsLBmNZ6CF6rppzVLAhLoP2ijVVbZLTvd%2F9zw4XLz5mjZGp6yMiCK7nDDxq2zRp%2BYYvgQYkzI51GYcR3hnmjyOZhHynvDnf3OevDbKihdLoGf7Gh8DBp%2B04VrSqCcAExGEmQSaZp9tXRrYxvlakSqEvywoLn0Q5gQnr2T7%2FwUzho6%2FT8%2BVJ%2FCMadd6jCm6zSaT5Sz3pFvVOnbifOgWDsOZqqXgpMQvbTIiGbVJtcx0%2F%2B0bkwoR50VjWg3%2B%2Fsi81t8zFXabeN9KepdzEpqDf2TnujGlg6JRS%2FzkTMfVg8t04XL7%2BrF5dwg%2FG4UZPpvwysBqRf2ywgNXsG%2FxgZwy2NenkJhXFxNSEBcylgc%2Ff%2Ft%2BpHX7%2FRFF7v3WhhRXzU%3D&v=1 [运行时间：0.036603s][吞吐率：27.32req/s] [内存消耗：1,072.02kb] [文件加载：30]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'messenger-front',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'msg-push.duba.net',
+  'content-type' => 'application/octet-stream',
+  'user-agent' => 'Mozilla/4.0',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  'c' => 'nN640gDS6JvhLGVcrlwz0bCRKXVHrYH/aQAyyzd3n2FX52EH/0R6vPwCE55dOBdWoRPiLeOE9kH6GlahYZRNI8WfCnaXsivgeCyvW6Jdg/VWnIXEl2VdjHcQ2qoAyexE+hJBzOJE/dcOuHl7fVjFBLG+11IQeRchkqHVUCah5iX3lEExsxlbMSUWPMhN9cvGANy8U7h1FAkEJjFAubeuIbqzrCwc/Kegm1l7C9aebdpo01rv/s1DvtGaUsFH6Qafpgp5dmiRzS9wsmoQsLBmNZ6CF6rppzVLAhLoP2ijVVbZLTvd/9zw4XLz5mjZGp6yMiCK7nDDxq2zRp+YYvgQYkzI51GYcR3hnmjyOZhHynvDnf3OevDbKihdLoGf7Gh8DBp+04VrSqCcAExGEmQSaZp9tXRrYxvlakSqEvywoLn0Q5gQnr2T7/wUzho6/T8+VJ/CMadd6jCm6zSaT5Sz3pFvVOnbifOgWDsOZqqXgpMQvbTIiGbVJtcx0/+0bkwoR50VjWg3+/si81t8zFXabeN9KepdzEpqDf2TnujGlg6JRS/zkTMfVg8t04XL7+rF5dwg/G4UZPpvwysBqRf2ywgNXsG/xgZwy2NenkJhXFxNSEBcylgc/f/t+pHX7/RFF7v3WhhRXzU=',
+  'v' => '1',
+)
+[ info ] [ LOG ] INIT File

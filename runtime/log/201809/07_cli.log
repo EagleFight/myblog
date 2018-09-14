@@ -1,0 +1,81 @@
+[ 2018-09-07T12:51:09+08:00 ][ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-09-07T12:51:09+08:00 ][ info ] [ BIND ] 'index/Sregister'
+[ 2018-09-07T12:51:09+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Sregister',
+    2 => 'start_gateway.php',
+  ),
+)
+[ 2018-09-07T12:51:09+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-07T12:51:09+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-07T12:51:09+08:00 ][ error ] [0]Fatal error: Class 'GatewayWorker\Register' not found[E:\xampp\htdocs\tp5\application\index\controller\Sregister.php:11]
+[ 2018-09-07T12:53:28+08:00 ][ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-09-07T12:53:28+08:00 ][ info ] [ BIND ] 'index/Sregister'
+[ 2018-09-07T12:53:28+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Sregister',
+    2 => 'start_gateway.php',
+  ),
+)
+[ 2018-09-07T12:53:28+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-07T12:53:28+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ BIND ] 'index/Sregister'
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Sregister',
+    2 => '-q',
+  ),
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ BIND ] 'index/Sgateway'
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Sgateway',
+    2 => '-q',
+  ),
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ PARAM ] array (
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ BIND ] 'index/Sbusinessworker'
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Sbusinessworker',
+    2 => '-q',
+  ),
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ HEADER ] array (
+)
+[ 2018-09-07T12:53:29+08:00 ][ info ] [ PARAM ] array (
+)
