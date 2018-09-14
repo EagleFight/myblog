@@ -1,0 +1,5 @@
+.layui-body{padding-left: 20px;}
+.layui-body form{margin-top: 30px;max-width: 1060px;}
+.layui-body form .layui-form-label{padding-left: 0;padding-right:0;text-align: left;}
+
+#demo2 img{width: 100px;height: auto;max-height: 60px;}

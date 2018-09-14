@@ -1,0 +1,50 @@
+{extend name="public/base" /}
+{block name="title"}联系我们{/block}
+{block name="ref"}
+<style>
+    body,html{height: auto;overflow-x: hidden;overflow-y: visible;}
+</style>
+{/block}
+{block name="section"}
+<div class="platform">
+    <p class="culture-title">官方媒体平台</p>
+    <div class="line-word clearfix">
+        <div class="line left-line"></div>
+        <div class="word">Official media platform</div>
+        <div class="line left-line"></div>
+    </div>
+    <div class="or-code clearfix">
+        <div class="or-item">
+            <img src="/index/image/weibo.png">
+            <p>新浪微博（护博）</p>
+        </div>
+        <div class="or-item">
+            <img src="/index/image/weixing.png">
+            <p>微信公众平台（护士家园）</p>
+        </div>
+        <div class="or-item">
+            <img src="/index/image/hushiweibo.png">
+            <p>新浪微博（护士家园）</p>
+        </div>
+    </div>
+</div>
+<div class="map-contact">
+    <div class="content"></div>
+    <div class="ab-bg">
+        <div class="contact"><span class="color"></span><span class="we">联系我们</span><span class="color"></span></div>
+        <div class="seek" onclick="makeNewWindow('map')">
+            <img src="/index/image/icon/weizhi.png">
+            <p>查看地图</p>
+        </div>
+        <p class="adress">四川省绵阳市游仙区五里梁工业园区南路七号地7栋</p>
+        <img src="/index/image/lianxiwomentu.png">
+    </div>
+</div>
+{/block}
+{block name="script"}
+    <script>
+        window.onload=function () {
+            $("html,body").animate({scrollTop : $(document).height()}, 300);
+        }
+    </script>
+{/block}

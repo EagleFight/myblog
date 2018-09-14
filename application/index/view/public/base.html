@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{block name="title"}{/block}</title>
+    <link href="/index/css/css.css" rel="stylesheet">
+    <script src="/home/js/jquery-2.1.0.js"></script>
+    <script src="/index/js/index.js"></script>
+    {block name="ref"}{/block}
+</head>
+<body>
+<section>
+    {block name="one-container"}{/block}
+    <div class="section">
+        <div class="head-nav">
+            <div class="head clearfix">
+                <a href="#" class="logo"></a>
+                <ul class="nav clearfix">
+                    <li><a href="{:Url('index')}" style="{eq name="Request.action" value="index"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">首页</a></li>
+                    <li><a href="{:Url('nurse')}" style="{eq name="Request.action" value="nurse"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">护士家园</a></li>
+                    <li><a href="{:Url('manager')}" style="{eq name="Request.action" value="manager"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">家庭健康管家</a></li>
+                    <li><a href="{:Url('zhaopin')}" style="{eq name="Request.action" value="zhaopin"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">招聘</a></li>
+                    <li><a href="{:Url('contact')}" style="{eq name="Request.action" value="contact"}color: rgb(45,166,155);border-bottom: 3px solid rgb(45,166,155);{/eq}">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        {block name="section"}{/block}
+        <footer class="foot">
+            <!--<a href="javascript:void(0)" class="btn_top" id="rMenuCont" title="返回顶部" style="display: inline;"></a>-->
+            <div class="foot-size">
+                <div class="eym">
+                    <img src="/index/image/weixing.png">
+                    <p>护士家园</p>
+                </div>
+                <img class="foot-logo hubo-logo" src="/index/image/foot-logo.png">
+                <img class="foot-logo" src="/index/image/foot-size.png">
+                <p>护博医疗版权所有 © 1997-2017</p>
+                <p>京ICP备12025925号 京ICP证010207号</p>
+            </div>
+        </footer>
+    </div>
+</section>
+<script>
+//    var browserWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+//    if(browserWidth>1240){
+//        $('.header-page,.section>div').css({'padding-left':(browserWidth-1200)/2+'px','padding-right':(browserWidth-1200)/2+'px'});
+//    }
+</script>
+{block name="script"}{/block}
+</body>
+</html>
