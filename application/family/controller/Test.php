@@ -22,6 +22,7 @@ class Test extends Controller
         //
     }
 
+
     /**
      * 显示创建资源表单页.
      *
