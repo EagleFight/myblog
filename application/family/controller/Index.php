@@ -18,6 +18,17 @@ class Index extends Controller
         return view();
     }
 
+
+
+    public function recruit(){
+
+        return view();
+    }
+
+
+
+
+
     public function test(){
         $user = db('chat_user');
         $users = $user->select();
