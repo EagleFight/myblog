@@ -19,6 +19,10 @@ class Index extends Controller
     }
 
 
+    public function album(){
+
+        return view();
+    }
 
     public function recruit(){
 
