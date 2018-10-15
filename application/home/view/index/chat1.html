@@ -29,7 +29,8 @@
         //已经登录时 连接服务端
         function connected() {
             // 创建websocket
-            ws = new WebSocket("ws://"+document.domain+":7272");
+//            ws = new WebSocket("ws://"+document.domain+":7272");
+            ws = new WebSocket("ws://cq.xuduan.tech:35560");
             // 当socket连接打开时，输入用户名
             ws.onopen = onopened();
             // 当有消息时根据消息类型显示不同信息
@@ -47,14 +48,14 @@
             if(sessionStorage.getItem("client_name")!=null){
                 console.log(sessionStorage.getItem("client_name"));
             }
-//            flush_client_list(sessionStorage.getItem("client_name"));
+            flush_client_list(sessionStorage.getItem("client_name"));
         }
         
         // 连接服务端
         function connect(nickname) {
             // 创建websocket
             name = nickname;
-            ws = new WebSocket("ws://localhost:7272");
+            ws = new WebSocket("ws://cq.xuduan.tech:35560");
             // 当socket连接打开时，输入用户名
             ws.onopen = onopen;
             // 当有消息时根据消息类型显示不同信息
