@@ -29,6 +29,10 @@ class Index extends Controller
         return view();
     }
 
+    public function techDetail(){
+        return view();
+    }
+
 
 
 

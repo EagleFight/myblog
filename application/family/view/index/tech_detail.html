@@ -1,0 +1,20 @@
+{extend name="public/base" /}
+{block name="title"}网站首页{/block}
+{block name="ref"}
+<link rel="stylesheet" id="style-css" href="http://theme.chenxingweb.com/cxudy-2/wp-content/themes/cx-udy/css/main.css?ver=1520999319" type="text/css" media="all">
+<link href="/family/css/font-awesome.min.css" rel="stylesheet">
+<link href="/family/css/framework.css" rel="stylesheet">
+<style>
+    body{background-color: #f7f7f7;}
+    .tophead .logo{line-height: 46px;}
+    a,a:hover{color: #555;}
+    footer{display: none;}
+</style>
+{/block}
+{block name="section"}
+<article>
+    <div class="blogs">
+    </div>
+    {include file="public/right_sidebar" /}
+</article>
+{/block}
