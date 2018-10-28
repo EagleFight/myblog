@@ -13,7 +13,7 @@ class Index extends Controller
     public function index(){
         return view();
     }
-    public function detail(){
+    public function aboutme(){
         return view();
     }
 }
