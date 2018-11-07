@@ -249,6 +249,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "yl-app-dream": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "华崃管理系统",
+      "icon": {
+        "type": "fa",
+        "content": "yoast",
+        "bg": "#6b96cf"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "华崃管理系统",
+      "url": "http://127.0.0.2/dream/index",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "yl-server": {
       "addressBar": false,
       "autoRun": 1,
@@ -299,6 +332,12 @@
     {
       "app": "yl-app-home",
       "title": "YLUI 官网",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-app-dream",
+      "title": "华崃管理系统",
       "params": {},
       "hash": ""
     }
