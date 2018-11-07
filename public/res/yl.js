@@ -362,7 +362,7 @@ window.YL = {
   loadRes: function () {
     //资源加载
     var that = this;
-    var pathRes = 'http://'+document.domain+'/ylui/res';
+    var pathRes = '/res';
     var counterLoad = 0, maxLoad = 25; //资源加载计数器
     var onLoading = "...";
 
@@ -1183,7 +1183,7 @@ window.YL = {
   },
 };
 YL.util.onloadSafe(function () {
-  YL.util.loadScript('http://'+document.domain+'/ylui/configs.js', function () {
+  YL.util.loadScript('/configs.js', function () {
     if (YL.static.lang.toLocaleLowerCase() === 'auto') {
       YL.static.lang = (navigator.language || navigator.browserLanguage).toLowerCase();
     }
@@ -1193,12 +1193,12 @@ YL.util.onloadSafe(function () {
       YL.static.languages[YL.static.lang] = json;
       YL.loadRes();
     };
-    YL.util.loadContentFromUrl('http://'+document.domain+'/ylui/langs/' + YL.static.lang + '.json', 'GET', function (err, text) {
+    YL.util.loadContentFromUrl('/langs/' + YL.static.lang + '.json', 'GET', function (err, text) {
       if (!err) {
         fnLoadResFromText(text)
       } else {
         YL.static.lang = 'en';
-        YL.util.loadContentFromUrl('http://'+document.domain+'/ylui/langs/' + YL.static.lang + '.json', 'GET', function (err, text) {
+        YL.util.loadContentFromUrl('/langs/' + YL.static.lang + '.json', 'GET', function (err, text) {
           fnLoadResFromText(text)
         })
       }

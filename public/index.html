@@ -118,26 +118,6 @@
                 {{s.title}}
             </div>
         </div>
-		<div class="shortcut" :class="shortcutClass(id,s)" v-for="(s, id) in shortcuts"
-             :key="id"
-             @mousedown="shortcutMouseDown(id,null, $event)"
-             @touchstart="shortcutMouseDown(id,null, $event)"
-             v-show="runtime.shortcutsShow"
-             @contextMenu="shortcutContextMenu(id,null,$event)"
-             :title="s.title"
-             :style="shortcutStyle(id,null)">
-            <yl-icon v-if="!s.children" :icon="apps[s.app].icon" :badge="apps[s.app].badge"></yl-icon>
-            <div class="icon-drawer" v-if="s.children">
-                <template v-for="(s1, id1) in s.children">
-                    <yl-icon :icon="apps[s1.app].icon" :badge="0" class="icon-drawer-pre"
-                             :drawer="true"></yl-icon>
-                </template>
-                <div class="badge" v-show="shortcutGetDrawerBadge(id)">{{badgeText(shortcutGetDrawerBadge(id))}}</div>
-            </div>
-            <div class="title">
-                {{s.title}}
-            </div>
-        </div>
 
         <!--抽屉渲染-->
         <transition name="opacity">

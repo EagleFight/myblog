@@ -2,7 +2,7 @@ YL.onLoad(function () {
   var loadFromFile = function (file) {
     //文件启动
     file = file || 'basic';
-    var save = /^\w+$/.test(file) ? './saves/' + file + '.json' : file;
+    var save = /^\w+$/.test(file) ? '/saves/' + file + '.json' : file;
     Yuri2.loadContentFromUrl(save, 'GET', function (err, text) {
       if (!err) {
         var data = JSON.parse(text);

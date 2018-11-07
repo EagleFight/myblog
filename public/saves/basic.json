@@ -2,7 +2,7 @@
   "configs": {
     "topTaskBar": false,
     "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg2.jpg",
+    "wallpaper": "/res/img/wallpapers/bg2.jpg",
     "wallpaperBlur": false,
     "wallpaperSlide": false,
     "wallpaperSlideRandom": true,
@@ -18,67 +18,67 @@
         "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="
       },
       {
-        "image": "./res/img/wallpapers/bg1.jpg",
-        "preview": "./res/img/wallpapers/bg1_1.jpg"
+        "image": "/res/img/wallpapers/bg1.jpg",
+        "preview": "/res/img/wallpapers/bg1_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg2.jpg",
-        "preview": "./res/img/wallpapers/bg2_1.jpg"
+        "image": "/res/img/wallpapers/bg2.jpg",
+        "preview": "/res/img/wallpapers/bg2_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg3.jpg",
-        "preview": "./res/img/wallpapers/bg3_1.jpg"
+        "image": "/res/img/wallpapers/bg3.jpg",
+        "preview": "/res/img/wallpapers/bg3_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg4.jpg",
-        "preview": "./res/img/wallpapers/bg4_1.jpg"
+        "image": "/res/img/wallpapers/bg4.jpg",
+        "preview": "/res/img/wallpapers/bg4_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg5.jpg",
-        "preview": "./res/img/wallpapers/bg5_1.jpg"
+        "image": "/res/img/wallpapers/bg5.jpg",
+        "preview": "/res/img/wallpapers/bg5_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg6.jpg",
-        "preview": "./res/img/wallpapers/bg6_1.jpg"
+        "image": "/res/img/wallpapers/bg6.jpg",
+        "preview": "/res/img/wallpapers/bg6_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg7.jpg",
-        "preview": "./res/img/wallpapers/bg7_1.jpg"
+        "image": "/res/img/wallpapers/bg7.jpg",
+        "preview": "/res/img/wallpapers/bg7_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg8.jpg",
-        "preview": "./res/img/wallpapers/bg8_1.jpg"
+        "image": "/res/img/wallpapers/bg8.jpg",
+        "preview": "/res/img/wallpapers/bg8_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg9.jpg",
-        "preview": "./res/img/wallpapers/bg9_1.jpg"
+        "image": "/res/img/wallpapers/bg9.jpg",
+        "preview": "/res/img/wallpapers/bg9_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg10.jpg",
-        "preview": "./res/img/wallpapers/bg10_1.jpg"
+        "image": "/res/img/wallpapers/bg10.jpg",
+        "preview": "/res/img/wallpapers/bg10_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg11.jpg",
-        "preview": "./res/img/wallpapers/bg11_1.jpg"
+        "image": "/res/img/wallpapers/bg11.jpg",
+        "preview": "/res/img/wallpapers/bg11_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg12.jpg",
-        "preview": "./res/img/wallpapers/bg12_1.jpg"
+        "image": "/res/img/wallpapers/bg12.jpg",
+        "preview": "/res/img/wallpapers/bg12_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg13.jpg",
-        "preview": "./res/img/wallpapers/bg13_1.jpg"
+        "image": "/res/img/wallpapers/bg13.jpg",
+        "preview": "/res/img/wallpapers/bg13_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg14.jpg",
-        "preview": "./res/img/wallpapers/bg14_1.jpg"
+        "image": "/res/img/wallpapers/bg14.jpg",
+        "preview": "/res/img/wallpapers/bg14_1.jpg"
       },
       {
-        "image": "./res/img/wallpapers/bg15.jpg",
-        "preview": "./res/img/wallpapers/bg15_1.jpg"
+        "image": "/res/img/wallpapers/bg15.jpg",
+        "preview": "/res/img/wallpapers/bg15_1.jpg"
       }
     ],
-    "pathRes": "./res",
+    "pathRes": "/res",
     "shortcutsSortAuto": true,
     "debug": false,
     "winBlur": true
@@ -113,7 +113,7 @@
         "height": "590"
       },
       "title": "系统设置",
-      "url": "./res/apps/yl-system/index.html",
+      "url": "/res/apps/yl-system/index.html",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -146,7 +146,7 @@
         "height": "239"
       },
       "title": "取色器",
-      "url": "./res/apps/colorPicker/colorPicker.html",
+      "url": "/res/apps/colorPicker/colorPicker.html",
       "customTile": "",
       "urlRandomToken": true
     },
@@ -179,7 +179,7 @@
         "width": "x*0.8"
       },
       "title": "浏览器",
-      "url": "./res/apps/browser/index.html",
+      "url": "/res/apps/browser/index.html",
       "customTile": "",
       "urlRandomToken": true
     },
