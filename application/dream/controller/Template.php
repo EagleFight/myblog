@@ -8,9 +8,13 @@
 namespace app\dream\controller;
 use think\Controller;
 
-class Resume extends Controller
+class Template extends Controller
 {
     public function index(){
-        return view('template_1');
+        return view();
+    }
+
+    public function resume($tid){
+        return view('temp_resume_'.$tid);
     }
 }

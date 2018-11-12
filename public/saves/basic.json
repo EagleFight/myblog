@@ -282,6 +282,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "yl-app-family": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "华崃管理系统",
+      "icon": {
+        "type": "fa",
+        "content": "yoast",
+        "bg": "#6b96cf"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "我的博客",
+      "url": "http://127.0.0.2/family/index",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "yl-server": {
       "addressBar": false,
       "autoRun": 1,
@@ -338,6 +371,12 @@
     {
       "app": "yl-app-dream",
       "title": "华崃管理系统",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "yl-app-family",
+      "title": "我的博客",
       "params": {},
       "hash": ""
     }
