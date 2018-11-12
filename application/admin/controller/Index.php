@@ -10,8 +10,20 @@ class Index extends Controller
         return view();
     }
 
+    public function h5List()
+    {
+        dump(db('dream_'));exit();
+//        return view();
+    }
+
     public function login(){
-        return view();
+        $type = db('h5_type')->select();
+        $data = array(
+            'code'=> 0 ,
+            'count'=>300,
+            'data'=>$type
+        );
+        return json($data);
     }
 
 
