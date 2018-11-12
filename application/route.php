@@ -24,5 +24,5 @@ return [
     ],
 
 ];
+Route::resource('blog','index/Blog');
 
-Route::resource('test','family/Test');
