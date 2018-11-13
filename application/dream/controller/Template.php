@@ -27,6 +27,9 @@ class Template extends Controller
     public function tempH1(){
         return 'temp_h5_1';
     }
+    public function tempH2(){
+        return 'temp_h5_2';
+    }
 
     /*
      * *pc模板
