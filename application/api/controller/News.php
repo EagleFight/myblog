@@ -13,7 +13,7 @@ class News extends Controller
 {
     public function index()
     {
-        return 'wuwu';
+        return 'wuwu000';
     }
     public function read(){
         $id = input('id');
@@ -34,6 +34,7 @@ class News extends Controller
 
     public function save()
     {
-        return 'wuwu1';
+        $arr = array('name'=>'wuwu');
+        return json($arr);
     }
 }
